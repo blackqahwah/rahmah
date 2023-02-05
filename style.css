@@ -1,0 +1,182 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.nvba{
+  text-decoration: none !important;
+  color: #f4f4d6 !important;
+  font-family: arabic;
+}
+.hicons:hover{
+  color: #0056cf !important;
+}
+
+#funnels {
+  font-family: ginger;
+}
+
+.home, .services, .talk{
+  font-family: neosthbold;
+}
+
+ .services, .talk{
+  display:none;
+} 
+#moreIntro{
+  font-family: ginger;
+}
+.highlightme{
+  padding-left: 0.15em;
+  padding-top: 0.01em;
+  padding-bottom: 0.01em;
+  background-color: #f4f4d6;
+  color: #0056cf;
+  text-decoration: none !important;
+}
+
+.highlightmeToo{
+  padding-left: 0.15em;
+  padding-top: 0.01em;
+  padding-bottom: 0.01em;
+  background-color: #0056cf;
+  color: #f4f4d6;
+  text-decoration: none !important;
+}
+
+.highlightmeThree{
+  padding-left: 0.15em;
+  padding-top: 0.01em;
+  padding-bottom: 0.01em;
+  background-color: #f4f4d6;
+  color: #0056cf;
+  text-decoration: none !important;
+}
+
+.blue-card-header {
+  background: #0056cf !important ;
+  
+}
+
+.darkborders{
+  border-color: #0056cf !important;
+}
+
+.beige-bgs{
+  background: #f4f4d6 !important;
+}
+
+.txtbk {
+
+  color: #1c1c1c !important;
+}
+
+.txtbl {
+
+  color: #0056cf !important;
+}
+
+.txtbg {
+
+  color: #f4f4d6 !important;
+}
+
+
+
+/* fonts */
+
+@font-face {
+
+  font-family: arabic;
+  src: url(/fonts/\(A\)\ Arslan\ Wessam\ A\ \(A\)\ Arslan\ Wessam\ A.ttf)
+  
+}
+
+@font-face {
+
+  font-family: ginger;
+  src: url(/fonts/Questrial-Regular.ttf)
+  
+}
+
+@font-face {
+  font-family: neosthlight;
+  src: url(/fonts/NeotericBold-xq1q.ttf)
+}
+
+@font-face {
+  font-family: montsnormal;
+  src: url(/fonts/Montserrat-Bold.ttf)
+}
+
+@font-face {
+  font-family: neosthbold;
+  src: url(/fonts/Neoteric-32A8.ttf);
+}
+
+
+
+/* scroll snap */
+
+.tido {
+
+  scroll-snap-type: x mandatory;
+  scroll-padding: 24px;
+  padding: 5px;
+  gap: 12px;
+  
+}
+
+.tidos {
+
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  
+}
+
+
+/* scrollbar custom */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #0056cf;
+  border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #0056cf; 
+  border-radius: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1c1c1c; 
+}
+
+::-webkit-scrollbar-track-piece {
+
+  background: #f4f4d6; 
+}
+
+::-webkit-scrollbar-button {
+  background: #f4f4d6;
+ 
+}
+
+
+
+
+
+
+/*  @media (min-width: 768px) { */
+.mt-md-f {
+
+  margin-top: -17vh !important
+   
+ }
+/* } */
