@@ -8,6 +8,11 @@ html, body {
   color: #f4f4d6 !important;
   font-family: arabic;
 }
+
+.bda{
+  text-decoration: none !important;
+  font-family: arabic;
+}
 .hicons:hover{
   color: #0056cf !important;
 }

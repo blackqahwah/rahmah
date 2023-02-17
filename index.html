@@ -81,7 +81,7 @@
 <div class="d-flex flex-column align-items-center justify-content-center vh-100  loaderDiv">
   <span class="loader mb-3"></span>
   <span>
-    <a href="" class="highlightmeToo typewrite fs-6" data-period="2000" data-type='[ "LOADING" ]'>
+    <a href="" class="highlightmeToo typewrite fs-6" data-period="9000" data-type='[ "WHOOSH" ]'>
       <span class="wrap"></span>
     </a>
   </span>
@@ -142,9 +142,9 @@
 
 
 
-  <section class="container h-75 services justify-content-center px-5" id="funnel2">
+  <section class="container vh-100 services justify-content-center px-5" id="funnel2">
 
-    <div class="row flex-column row-cols-sm-1 row-cols-md-2 h-100 align-items-center justify-content-center">
+    <div class="row flex-column row-cols-sm-1 row-cols-md-2 h-75 align-items-center justify-content-center">
 
 
       <div class="container">
@@ -157,7 +157,7 @@
             </a> I build it.</h1>
         </div>
 
-        <section class="customer-logos slider">
+        <div class="row row-cols-1 justify-content-center customer-logos slider mb-3">
           <div class="slide">minimalism</div>
           <div class="slide">functionality</div>
           <div class="slide">speed</div>
@@ -166,13 +166,18 @@
           <div class="slide">functionality</div>
           <div class="slide">speed</div>
           <div class="slide">efficiency</div>
-        </section>
+        </div>
 
+        <div class="row row-cols-3 justify-content-center">
+          <p class="copy text-center font-weight-bold">hire me <i class="bi bi-hammer"></i></p>
+          <p class="copy text-center font-weight-bold">my portfolio <i class="bi bi-briefcase-fill"></i> </p>
+          <p class="copy text-center font-weight-bold">talk to me <i class="bi bi-chat-text-fill"></i></p>
+        </div>
 
       </div>
 
 
-      <p class="copy text-center font-weight-bold">Let's get to work</p>
+
 
 
 
@@ -244,12 +249,13 @@
               </div>
             </div>
 
-             <div class="col-sm-8 pb-3">
+            <div class="col-sm-8 pb-3">
               <div class="card p-2">
                 <div class="card-body">
                   <h2 class="card-title text-start fw-bold txtbk">Recovery</h2>
-                  <p class="card-text">When reality hits, I head over to substack and cosplay as a philisopher / deep thinker of some sort.
-                   aka broken</p>
+                  <p class="card-text">When reality hits, I head over to substack and cosplay as a philisopher / deep
+                    thinker of some sort.
+                    aka broken</p>
                   <a href="https://rahmatullah.substack.com/" class="btn btn-primary"><i
                       class="bi bi-door-open-fill"></i></a>
                 </div>
@@ -259,9 +265,10 @@
             <div class="col-sm-8 pb-3">
               <div class="card p-2">
                 <div class="card-body">
-                  <h2 class="card-title text-start fw-bold txtbk">Medium</h2>
-                  <p class="card-text">Because if I don't practice essay writing in arabic often enough, there'll be problems.</p>
-                  <a href="https://qahwah.hashnode.dev/" class="btn btn-primary"><i
+                  <h2 class="card-title text-start fw-bold bda txtbk">رَحّالَة</h2>
+                  <p class="card-text">Because if I don't practice essay writing in arabic often enough, there'll be
+                    problems.</p>
+                  <a href="https://medium.com/@ibraheemrahmatullah" class="btn btn-primary"><i
                       class="bi bi-door-open-fill"></i></a>
                 </div>
               </div>
@@ -293,7 +300,7 @@
 
   <script>$(document).ready(function () {
       $('.customer-logos').slick({
-        slidesToShow: 4,
+        slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 1500,
@@ -303,12 +310,12 @@
         responsive: [{
           breakpoint: 768,
           setting: {
-            slidesToShow: 4
+            slidesToShow: 1
           }
         }, {
           breakpoint: 520,
           setting: {
-            slidesToShow: 3
+            slidesToShow: 1
           }
         }]
       });
